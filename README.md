@@ -11,3 +11,7 @@ Key test-and-try points learned that are crucial for a good RAG pipeline:
 - Writing a good final prompt is a crucial part (some useful resources: <a href="https://www.promptingguide.ai/pt/introduction/examples">Prompting Guide</a>, <a href="https://github.com/brexhq/prompt-engineering">Brex’s Prompt Engineering Guide</a>, <a href="https://arxiv.org/abs/2401.14423">Related arXiv Paper</a>).  
 
 Feel free to check out the notebook!
+
+## Executing
+
+To use the notebook, make sure to create a Python virtual environment and install the dependencies listed in `requirements.txt`. You also need to create a `.env` file, which must contain your Hugging Face API key in the `HF_TOKEN` field.
