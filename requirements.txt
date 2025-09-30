@@ -1,11 +1,8 @@
-gradio
 dotenv
-openai
 pymupdf
 spacy
 tqdm
-FlagEmbedding
 sentence-transformers
 transformers
 kernels
-torch 
+torch
