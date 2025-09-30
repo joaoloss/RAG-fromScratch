@@ -6,3 +6,5 @@ sentence-transformers
 transformers
 kernels
 torch
+pandas
+numpy
