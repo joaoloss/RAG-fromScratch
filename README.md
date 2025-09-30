@@ -4,4 +4,10 @@
 
 By building this RAG pipeline from scratch, I was able to work with PDF loading and preprocessing, embedding models, similarity search, running an LLM locally, and prompt augmentation.
 
+Key test-and-try points learned that are crucial for a good RAG pipeline:
+
+- Choose a good embedding model and check if it was trained in the desired language(s). Also, check if a small embedding model works well, as it results in a faster pipeline and less storage.  
+- If your RAG pipeline is mainly to summarize and structure the relevant pieces of text, you definitely don’t need a big model—start with a small one (< 10B).  
+- Writing a good final prompt is a crucial part (some useful resources: <a href="https://www.promptingguide.ai/pt/introduction/examples">Prompting Guide</a>, <a href="https://github.com/brexhq/prompt-engineering">Brex’s Prompt Engineering Guide</a>, <a href="https://arxiv.org/abs/2401.14423">Related arXiv Paper</a>).  
+
 Feel free to check out the notebook!
