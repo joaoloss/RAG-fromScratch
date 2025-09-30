@@ -15,3 +15,5 @@ Feel free to check out the notebook!
 ## Executing
 
 To use the notebook, make sure to create a Python virtual environment and install the dependencies listed in `requirements.txt`. You also need to create a `.env` file, which must contain your Hugging Face API key in the `HF_TOKEN` field.
+
+Also, remember to adjust the `LLM_MODEL_ID`, `EMBEDDING_MODEL`, `FILE_PATH` and `EMBEDDING_PATH` constants in the *Basic and necessary imports and definitions* section to match your specific case.
